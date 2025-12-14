@@ -149,8 +149,8 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Delivered high-quality full-stack solutions for various client projects.",
-    imgPath: "public/images/wesclic.png", // Upload logo/gambar Wesclic Studio
-    logoPath: "public/images/wesclic-logo.png",
+    imgPath: "/images/wesclic.png", // Upload logo/gambar Wesclic Studio
+    logoPath: "/images/wesclic-logo.png",
     title: "Full Stack Developer",
     date: "2023 - Present", // Sesuaikan tanggal
     responsibilities: [
