@@ -133,7 +133,7 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Flutter Developer",
     modelPath: "/models/flutter.glb",
     scale: 31,
     rotation: [0, 0, 0],
