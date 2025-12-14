@@ -148,20 +148,22 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Delivered high-quality full-stack solutions for various client projects.",
+    review: "Contributed to the development and maintenance of web applications, focusing on backend systems using PHP Laravel",
     imgPath: "/images/wesclic.png", // Upload logo/gambar Wesclic Studio
     logoPath: "/images/wesclic-logo.png",
-    title: "Full Stack Developer",
-    date: "2023 - Present", // Sesuaikan tanggal
+    title: "Backend Web Developer",
+    company: "Wesclic Software House",
+    date: "2024 - 2025",
     responsibilities: [
-      "Developed web applications using PHP Laravel and Flutter",
-      "Built VocaKey: Music pitch analysis and transpose application",
-      "Created Thinder-up dating app with recommendation system",
-      "Developed Toko-Baju e-commerce platform",
+      "Contributed to the development and maintenance of web applications, focusing on backend systems using PHP Laravel",
+      "Involved in feature implementation, database management, and debugging to ensure optimal system functionality and performance",
+      "Actively participated in designing, developing, and implementing new backend features using Laravel and PHP",
+      "Ensured clean, structured, and maintainable code",
+      "Collaborated with cross-functional teams to deliver high-quality software solutions",
     ],
   },
-  // Tambahkan experience lain jika ada
 ];
+
 
 const expLogos = [
   {
