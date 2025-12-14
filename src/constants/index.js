@@ -11,10 +11,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  // {
+  //   name: "Testimonials",
+  //   link: "#testimonials",
+  // },
 ];
 
 const words = [
@@ -29,9 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 4, suffix: "+", label: "Years of Experience" },
+  { value: 30, suffix: "+", label: "Satisfied Clients" },
+  { value: 26, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -91,8 +91,8 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    name: "Laravel Developer",
+    imgPath: "/images/logos/laravel.png",
   },
   {
     name: "Python Developer",
@@ -102,9 +102,9 @@ const techStackImgs = [
     name: "Backend Developer",
     imgPath: "/images/logos/node.png",
   },
-  {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+ {
+    name: "Flutter Developer",
+    imgPath: "/images/logos/flutter.png", // Upload logo Flutter
   },
   {
     name: "Project Manager",
@@ -114,10 +114,11 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
+    name: "Laravel Developer",
+    modelPath: "/models/laravel.glb",
+    scale: 1.3,
+    rotation: [-1.5, 0, 0], // Reset rotation ke depan
+    position: [0, 0, 0], // Perfect center
   },
   {
     name: "Python Developer",
@@ -133,8 +134,8 @@ const techStackIcons = [
   },
   {
     name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
+    modelPath: "/models/flutter.glb",
+    scale: 31,
     rotation: [0, 0, 0],
   },
   {
@@ -147,41 +148,19 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
-  },
-  {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    review: "Delivered high-quality full-stack solutions for various client projects.",
+    imgPath: "public/images/wesclic.png", // Upload logo/gambar Wesclic Studio
+    logoPath: "public/images/wesclic-logo.png",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "2023 - Present", // Sesuaikan tanggal
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed web applications using PHP Laravel and Flutter",
+      "Built VocaKey: Music pitch analysis and transpose application",
+      "Created Thinder-up dating app with recommendation system",
+      "Developed Toko-Baju e-commerce platform",
     ],
   },
-  {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
-    ],
-  },
+  // Tambahkan experience lain jika ada
 ];
 
 const expLogos = [
@@ -248,20 +227,20 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/alikmakanmie/", // ✅ Benar
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    link: "https://www.facebook.com/profile.php?id=61564344414447", // ✅ Benar
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/zalikha-w-ramadhan-985015330", // ✅ Tambahkan https://
   },
 ];
+
 
 export {
   words,
